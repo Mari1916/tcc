@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #5086a1;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #476082;
+}
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/163864/santorini-oia-greece-travel-163864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;    
+    background-attachment: fixed;
+    padding: 30px 10px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+}
+
+.destinos-populares {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destino {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+}
+
+.destino a {
+    text-decoration: none;
+}
+
+.destino h3 {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.destinos-populares h2, .hospedagens h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.hospedagem {
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hospedagem img {
+    width: 100%;
+    height: auto;
+}
+
+.hospedagem a {
+    text-decoration: none;
+}
+
+.hospedagem h3 {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: black;
+}
+
+footer {
+    background-color: #476082;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+    width: 200px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 8px 18px;
+    background-color: #476082;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+.hospedagem{
+    text-align: center;
+}
+
+.hospedagens {
+    text-align: center;
+}
+
+.hospedagens2 {
+    text-align: center;
+}
+
+img {
+    padding: 10px 10px;
+}
